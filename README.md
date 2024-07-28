@@ -66,11 +66,11 @@ To automatically install & run wg-easy, simply run:
   -e LANG=de \
   -e WG_HOST=<🚨YOUR_SERVER_IP> \
   -e PASSWORD_HASH=<🚨YOUR_ADMIN_PASSWORD_HASH> \
-  -e PORT=51821 \
+  -e PORT=51811 \
   -e WG_PORT=51820 \
   -v ~/.wg-easy:/etc/wireguard \
   -p 51820:51820/udp \
-  -p 51821:51821/tcp \
+  -p 51811:51811/tcp \
   --cap-add=NET_ADMIN \
   --cap-add=SYS_MODULE \
   --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
